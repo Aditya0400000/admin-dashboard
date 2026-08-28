@@ -49,7 +49,7 @@ export default function UserTables() {
 
 
   return (
-    <div className='bg-white rounded-xl border border-slate-200 overflow-hidden'>
+    <div className='bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden'>
         {/* SearchBar */}
         <div className='p-4 border-b border-slate-200'>
             <div className='flex items-center gap-2 bg-slate-100 px-3 py-2 rounded-lg w-full sm:w-72'>

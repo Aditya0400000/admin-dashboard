@@ -18,8 +18,8 @@ export default function RevenueChart() {
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
         {/* Linechart */}
-        <div className='bg-white rounded-xl border border-slate-200 p-5 '>
-            <h3 className='text-slate-800 font-semibold mb-4'>Revenue Trend</h3>
+        <div className='bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-e-slate-800 p-5 '>
+            <h3 className='text-slate-800 dark:text-slate-100 font-semibold mb-4'>Revenue Trend</h3>
             <ResponsiveContainer width="100%" height={280}>
                 <LineChart data={revenueData}>
                     <CartesianGrid strokeDasharray= "3 3" stroke="#e2e8fo" />
@@ -44,8 +44,8 @@ export default function RevenueChart() {
         </div>
       
       {/* Barchart */}
-      <div className='bg-white rounded-xl border border-slate-200 p-5'>
-        <h3 className='text-slate-800 font-semibold mb-4'>Monthly Salary</h3>
+      <div className='bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5'>
+        <h3 className='text-slate-800 dark:text-slate-100 font-semibold mb-4'>Monthly Salary</h3>
         <ResponsiveContainer width="100%" height={200}>
             <BarChart data={revenueData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
