@@ -53,7 +53,7 @@ export default function UserTables() {
         {/* SearchBar */}
         <div className='p-4 border-b border-slate-200'>
             <div className='flex items-center gap-2 bg-slate-100 px-3 py-2 rounded-lg w-full sm:w-72'>
-                <Search size={18} className="text-slate-400" />
+                <Search size={18} className="text-slate-100" />
                 <input 
                 value={search}
                 onChange={(e) => {
@@ -70,7 +70,7 @@ export default function UserTables() {
         <div className='overflow-x-auto'>
             <table className='w-full text-sm'>
                 <thead>
-                    <tr className='text-left text-slate-500 border-b border-slate-200'>
+                    <tr className='text-left text-slate-500 dark:text-slate-100 border-b border-slate-200'>
                         {["name", "email", "role", "status"].map((col) => (
                         <th
                          key={col}
@@ -91,7 +91,7 @@ export default function UserTables() {
                         key={U.id}
                         className='border-b border-slate-100 hover:bg-slate-50 transition-colors duration-150'
                         >
-                            <td className='px-5 py-3 font-medium text-slate-800'>{U.name}</td>
+                            <td className='px-5 py-3 font-medium text-slate-800 dark:text-slate-500'>{U.name}</td>
                             <td className='px-5 py-3 text-slate-500'>{U.email}</td>
                             <td className='px-5 py-3 text-slate-500'>{U.role}</td>
                             <td className='px-5 py-3'>
