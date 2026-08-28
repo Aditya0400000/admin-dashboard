@@ -19,7 +19,7 @@ export default function SpotlightCard({ children, className = "" }) {
     onMouseMove={handleMouseMove}
     onMouseEnter={() => setOpacity(1)}
     onMouseLeave={() => setOpacity(0)}
-    className={`relative overflow-hidden rounded-xl bg-white border border-slate-200 p-5 transition-shadow duration-300 hover:shadow-lg ${className}`}
+    className={`relative overflow-hidden rounded-xl bg-white dark:bg-slate-900  border border-slate-200 dark:border-slate-800 p-5 transition-colors duration-300 hover:shadow-lg dark:hover:shadow-slate-900/50 ${className}`}
     >
       <div 
       className='pointer-events-none absolute inset-0 transition-opacity duration-300'

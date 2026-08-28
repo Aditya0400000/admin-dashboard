@@ -18,11 +18,11 @@ export default function Sidebar({ open, setOpen }) {
         />
       )}
       <aside
-        className={`fixed md:static z-30 top-0 left-0 h-screen w-64 bg-slate-900 text-white
-        transform transition-transform duration-300 ease-in-out
+        className={`fixed md:static z-30 top-0 left-0 h-screen w-64 bg-slate-900 dark:bg-slate-950 text-white
+        transform transition-transform duration-300 ease-in-out border-r border-transparent dark:border-slate-800
         ${open ? "translate-x-0" : "-translate-x-full"} md:translate-x-0`}
       >
-        <div className="flex items-center justify-between p-5 border-b border-slate-700">
+        <div className="flex items-center justify-between p-5 border-b border-slate-700 dark:border-slate-800">
           <h1 className="text-xl font-bold">Admin<span className="text-blue-500">Panel</span></h1>
           <button className="md:hidden" onClick={() => setOpen(false)}>
             <X size={22} />
