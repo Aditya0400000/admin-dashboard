@@ -18,7 +18,7 @@ export default function Sidebar({ open, setOpen }) {
         />
       )}
       <aside
-        className={`fixed md:static z-30 top-0 left-0 h-screen w-64 bg-slate-900 dark:bg-slate-950 text-white
+        className={`fixed md:static z-30 top-0 left-0 min-h-screen w-64 bg-slate-900 dark:bg-slate-950 text-white
         transform transition-transform duration-300 ease-in-out border-r border-transparent dark:border-slate-800
         ${open ? "translate-x-0" : "-translate-x-full"} md:translate-x-0`}
       >
