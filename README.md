@@ -2,8 +2,7 @@
 
 A modern, fully responsive admin dashboard built with **React** and **Tailwind CSS**, featuring real-time analytics visualization, user management, and dark mode support.
 
-🔗 **Live Demo:** [Coming soon after deployment]
-
+🔗 **Live Demo:** [https://admin-dashboard-xi-gilt.vercel.app/]
 ---
 
 ## ✨ Features
