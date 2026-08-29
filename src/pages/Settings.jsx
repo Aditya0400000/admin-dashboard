@@ -75,7 +75,7 @@ export default function Settings() {
           </div>
           <button
           onClick={() => toggle(item.key)}
-          className={`w-11 h-6 rounded-full transition-colors duration-200 relative flex-shrink-0 ${
+          className={`w-11 h-6 rounded-full transition-colors duration-200 relative ${
             notifications[item.key] ? "bg-blue-600" : "bg-slate-300 dark:bg-slate-700"
           }`}
           >
